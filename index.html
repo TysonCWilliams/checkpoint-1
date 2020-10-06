@@ -1,164 +1,226 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <title>Title</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap CSS -->
-    <script src="https://kit.fontawesome.com/884443294a.js" crossorigin="anonymous"></script>
-    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-  
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <script src="https://kit.fontawesome.com/884443294a.js" crossorigin="anonymous"></script>
+  <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+
 </head>
 
-  <body>
+<body>
 
-<!-- Navigation -->
-    <nav class="navbar navbar sticky-top dark bg-dark">
-      <a class="navbar-brand" href="#">
-        <i class="fas fa-water"></i>
-        Bootstrap
-      </a>
-    </nav>
+  <!-- Navigation -->
+  <nav class="navbar navbar sticky-top dark bg-dark">
+    <a class="navbar-brand" href="#">
+      <i class="fas fa-water"></i>
+      Bootstrap
+    </a>
+  </nav>
 
-      <!-- Header -->
-      <div class="container-fluid mt-5">
+  <!-- Header -->
+  <header>
 
-        <section class="custom-background text-white">
-          <div class="row align-items-center h-100">
-            <div class="col-4 offset-1">
-              <div class="card h-100 justify-content-center">
-                <div class="card-body">
-                  <h4 class="card-title text-primary">Card title</h4>
+    <section class="custom-background text-white">
+      <div class="container-fluid">
+
+        <div class="row">
+          <div class="col-lg-6 col-sm-12">
+            <div class="card mt-3">
+              <div class="card-body">
+                <div class="container-fluid pl-0 pr-0">
+
+                  <h4 class="card-title text-primary mynewclass">Card title</h4>
                   <h5 class="subtitle text-danger">Subtitle</h5>
-                <form>
-                  <div class="form mt-2 justify-content-space between">
-                    <div class="col-auto">
-                      <label class="sr-only" for="inlineFormInput">Name</label>
-                      <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Jane Doe">
+                  <form>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <label class="sr-only" for="inlineFormInput">Name</label>
+                        <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Jane Doe">
+                      </div>
                     </div>
-                    <div class="col-auto">
-                      <label class="sr-only" for="inlineFormInputGroup">Username</label>
-                      <div class="input-group mb-2">
-                        <div class="input-group-prepend">
-                          <div class="input-group-text">@</div>
+
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <label class="sr-only" for="inlineFormInputGroup">Username</label>
+                        <div class="input-group mb-2">
+                          <div class="input-group-prepend">
+                            <div class="input-group-text">@</div>
+                          </div>
+                          <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username">
                         </div>
-                        <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username">
                       </div>
                     </div>
-                    <div class="col">
-                      <input type="text" class="form-control mb-2" placeholder="Phone">
+
+                    <div class="row">
+
+                      <div class="col-lg-7">
+                        <input type="text" class="form-control mb-2" placeholder="Phone">
+                      </div>
+
+
+                      <div class="col-lg-5">
+                        <input type="text" class="form-control mb-2" placeholder="Extension">
+                      </div>
+
                     </div>
-                    <div class="col">
-                      <input type="text" class="form-control mb-2" placeholder="Extension">
-                    </div>
-                    <div class="col-auto">
-                      <div class="form-check mb-2">
-                        <input class="form-check-input" type="checkbox" id="autoSizingCheck">
-                        <label class="form-check-label" for="autoSizingCheck">
-                          Remember me
-                        </label>
+
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                       </div>
                     </div>
-                    <div class="col-auto">
-                      <button type="submit" class="btn btn-primary mb-2">Submit</button>
+
+                    <div class="row">
+
+                      <div class="col-lg-12">
+                        <div class="form-check mb-2">
+                          <input class="form-check-input" type="checkbox" id="autoSizingCheck">
+                          <label class="form-check-label" for="autoSizingCheck">
+                            Remember me
+                          </label>
+                        </div>
+                      </div>
                     </div>
-                  </div>
-                </form>
-              </div>      
+
+                    <div class="row">
+
+                      <div class="col-lg-12">
+                        <button type="submit" class="btn btn-primary mb-2">Submit</button>
+                      </div>
+                    </div>
+
+                  </form>
+                </div>
               </div>
             </div>
-            <div class="col-6 offset-1">
-              <h1>Title</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus totam ut praesentium aut.</p>
-            </div>
           </div>
-        </section>
+          <div class="col-sm-12 col-lg-6 hidden-on-mobile">
+            <h1 class="mt-5">Title</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi
+              doloribus totam ut praesentium aut.</p>
+          </div>
         </div>
-                
-            relative and absolute
-    <header class="bg-primary container-fluid">
-      <div class="row h-100">
-        <div class="col-lg-5 align-items-center">
-          <h1 class="text-white mt-5 mb-2">Title one</h1>
-          <p class="lead mb-5 text-white-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non possimus ab labore provident mollitia. Id assumenda voluptate earum corporis facere quibusdam quisquam iste ipsa cumque unde nisi, totam quas ipsam.</p>
-        </div>
-        <div class="col-lg-7 d-flex flex column position-absolute align-items-right">
-          <i class="far fa-gem fa-lg"></i>
-          <i class="far fa-gem fa-lg"></i>
-          <i class="far fa-gem fa-lg"></i>
-          <i class="far fa-gem fa-lg"></i>
-          <i class="far fa-gem fa-lg"></i>
       </div>
-      </div>
-    
+    </section>
   </header>
 
   <main>
-    
-    <div class="row h-100 justify-content-center">
-      <div class="col-lg 4 col-sm-12 mb-4 mt-4 ml-4">
-      <img class="img-fluid" src="https://placehold.it/250x500" alt="responsive image>">
-    </div>
-      <div class="col-lg-8 mb-4 justify-content-center">
-        <h1>Start Bootstrap</h1>
-      </div>
-    </div>
-    <!-- /.row -->
 
-    <div class="row justify-content-space-between">
-      <div class="col-lg-4 mb-5 mt-5">
-        <div class="card h-75">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus.</p>
-          </div>
-          <div class="card">
-            <a href="#" class="btn btn-primary">Find Out More!</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 mb-5">
-        <div class="card h-100">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus totam ut praesentium aut.</p>
-          </div>
-          <div class="card">
-            <a href="#" class="btn btn-primary">Find Out More!</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 mb-5 mt-5">
-        <div class="card h-75">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
-          </div>
-          <div class="card">
-            <a href="#" class="btn btn-primary">Find Out More!</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    
+    <div class="bg-primary container-fluid overlap-section">
+      <div class="row">
 
-  
+        <div class="col-lg-5 align-items-center">
+          <h3 class="text-white mt-3 mb-2">Title one</h3>
+          <p class="lead mb-5 text-white-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non possimus ab
+            labore provident mollitia. Id assumenda voluptate earum corporis facere quibusdam quisquam iste ipsa cumque
+            unde nisi, totam quas ipsam.</p>
+        </div>
+        <div class="col-lg-4 offset-lg-2">
+          <ul class="list-group mt-5">
+            <li class="list-group-item"><i class="far fa-gem fa-lg"></i> One</li>
+            <li class="list-group-item"><i class="far fa-gem fa-lg"></i> Two</li>
+            <li class="list-group-item"><i class="far fa-gem fa-lg"></i> Three</li>
+            <li class="list-group-item"><i class="far fa-gem fa-lg"></i> Four</li>
+            <li class="list-group-item"><i class="far fa-gem fa-lg"></i> Five</li>
+          </ul>
+
+        </div>
+
+
+      </div>
+
+    </div>
+
+    <div class="container-fluid pt-4 pb-4">
+
+      <div class="row">
+        <div class="col-lg-5">
+          <img class="img-fluid" src="https://placehold.it/250x500" alt="responsive image>">
+        </div>
+        <div class="col-lg-7 mt-5">
+          <h1>Start Bootstrap</h1>
+        </div>
+      </div>
+      <!-- /.row -->
+
+      <div class="row pt-5">
+        <div class="col-lg-4">
+          <div class="card card-main-height mt-4">
+            <div class="card-body">
+              <h4 class="card-title">Card title</h4>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse
+                necessitatibus
+                neque sequi doloribus.</p>
+            </div>
+            <div class="card">
+              <a href="#" class="btn btn-primary">Find Out More!</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card card-alternate-height">
+            <div class="row justify-content-center mt-2">
+              <h1>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </h1>
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">Card title</h4>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse
+                necessitatibus
+                neque sequi doloribus totam ut praesentium aut.</p>
+            </div>
+            <div class="card">
+              <a href="#" class="btn btn-primary">Find Out More!</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card card-main-height mt-4">
+            <div class="card-body">
+              <h4 class="card-title">Card title</h4>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse
+                necessitatibus
+                neque.</p>
+            </div>
+            <div class="card">
+              <a href="#" class="btn btn-primary">Find Out More!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
   </main>
+
+
+    <div class="row">
+      <div class=col-12>
+        <div class="card">
+          <div class="card-body text-primary">
+            <h1 class="card-title">This area has more text</h1>
+            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error animi magnam maiores
+              eligendi. Itaque, magni neque, maxime vel voluptate at molestiae enim rerum alias quae vero aperiam
+              dignissimos voluptatibus officia!</p>
+          </div>
+        </div>
+      </div>
+    </div>
   
   <!-- Footer -->
-  <div class="row">
-<div class= col-12>
-  <div class="card h-100">
-  <div class="card-body text-primary">
-    <h1 class="card-title">This area has more text</h1>
-    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error animi magnam maiores eligendi. Itaque, magni neque, maxime vel voluptate at molestiae enim rerum alias quae vero aperiam dignissimos voluptatibus officia!</p>
-  </div>
-  </div>
-</div>
-</div>
+
   <footer class="py-5 bg-dark">
     <div class="container">
       <p class="m-0 text-center text-white">Copyright &copy; Your Website 2020</p>
@@ -166,24 +228,24 @@
     <!-- /.container -->
   </footer>
 
-      <div class="row bg-light">
-      <div class="col-4"></div>
-      <div class="col-4"></div>
-      <div class="col-4"></div>
-    </div>
-    
-    <div class="row bg-primary">
-      <div class="col m-auto"></div>
-    </div>
+  <div class="row bg-light">
+    <div class="col-4"></div>
+    <div class="col-4"></div>
+    <div class="col-4"></div>
+  </div>
 
-    <div class="row bg-white">
-      <div class="col"></div>
-        <div class="col"></div>
-      <div class="col"></div>
-    </div>
-  
-    
-    
-  </body> 
+  <div class="row bg-primary">
+    <div class="col m-auto"></div>
+  </div>
+
+  <div class="row bg-white">
+    <div class="col"></div>
+    <div class="col"></div>
+    <div class="col"></div>
+  </div>
+
+
+
+</body>
 
 </html>
